@@ -2,6 +2,8 @@
 var mqtt    = require('mqtt');
 const fs = require('fs');
 
+//mongoose , mysql, postgress
+
 var options={
 clientId:"mqttjs01",
 autoAssignTopicAlias:true,
